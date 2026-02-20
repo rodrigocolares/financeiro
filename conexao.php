@@ -1,10 +1,10 @@
 <?php
 session_start();
 
-$host = "financeirocon.mysql.dbaas.com.br";
-$db   = "financeirocon";
-$user = "financeirocon";
-$pass = "Suplwrev@09";
+$host = "host";
+$db   = "nome_base";
+$user = "user_banco";
+$pass = "Senha_acesso";
 
 try {
     $con = new PDO("mysql:host=$host;dbname=$db;charset=utf8", $user, $pass);
